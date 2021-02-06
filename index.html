@@ -121,7 +121,7 @@
         padding: 10px;
         display: block;
         position: relative;
-        margin: 10px;
+        margin: 0px;
         cursor: pointer;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -145,6 +145,12 @@
         line-height: 28px;
         transition-duration: 0.4s;
         transform: scale(0);
+      }
+      /* Use a media query to add a breakpoint at 800px: */
+      @media screen and (max-width: 800px) {
+      label {
+      margin-top: 6vw;
+      margin-bottom: 6vw; /* The width is 100%, when the viewport is 800px or smaller */
       }
       :checked + label {
         border-color: none;
