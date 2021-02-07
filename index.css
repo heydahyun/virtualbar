@@ -40,6 +40,7 @@
     margin-block-start: 0.25em;
     margin-block-end: 0em;
     margin-left: 0.4em;
+    text-shadow: 1px 1px 5px #ffffff;
   }
   @media screen and (max-width: 800px) {
   h1 {
@@ -52,6 +53,7 @@
     margin-block-start: 1vw;
     margin-block-end: 0em;
     margin-left: 3vw;
+    text-shadow: 1px 1px 5px #ffffff;
      /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
@@ -64,6 +66,7 @@
     margin-block-start: 0.25em;
     margin-block-end: 0em;
     margin-right: 0.3em;
+    text-shadow: 1px 1px 5px #ffffff;
   }
   @media screen and (max-width: 800px) {
   h2 {
@@ -76,6 +79,7 @@
     margin-block-start: 1vw;
     margin-block-end: 0em;
     margin-left: 3vw; /* The width is 100%, when the viewport is 800px or smaller */
+    text-shadow: 1px 1px 5px #ffffff;
     }
   }
   .grid-container {
